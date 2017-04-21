@@ -1,0 +1,193 @@
+body{
+    background: lightgreen url('cooking-wallpaper.jpg');
+    background-size: cover;
+}
+
+p{
+    margin-left: 200px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 25px;
+    color: darkgreen;
+    font-weight: bold;
+ }
+
+select{
+    margin-left: 80px;
+    margin-bottom: 30px;
+    background-color: lightgreen;
+    font-size: 25px;
+    font-family: "Gloria Hallelujah", cursive;
+    color: darkgreen;
+}
+
+input{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background-color: lightgreen;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Gloria Hallelujah", cursive;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 40px;
+    background-size: cover;
+    min-height: 110px;
+    color: darkgreen;
+ }
+
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Gloria Hallelujah", cursive;
+    background-size:cover;
+    min-height: 100px;
+    margin: 10px 0 5px 0;
+    color: darkgreen;
+}
+
+a{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: brown;
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Gloria Hallelujah", cursive;
+    color: darkgreen;
+}
+
+table {
+    font-family: "Gentium Book Basic";
+    font-size: 25px;
+    color: darkgreen;
+    content: normal;
+    background-color: #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.error {
+    font-family: 'Lobster Two', cursive;
+    color: darkred;
+    padding-bottom: 20px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+    font-size: 25px;
+}
+
+strong {
+    font-weight: bolder;
+ }
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(192,192,192,0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ol {
+    margin-left: 150px;
+    width: 100%;
+}
+
+
+li {
+    float: left;
+   }
+
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.padding {
+    padding: 50px 0 100px;
+    }
+
+.line {
+
+    padding: 20px 30px 50px;
+    width: 100px;
+    border-top: 1px solid #fff;
+    display: block;
+    margin: auto;
+  }
+
+
+.parallax, .parallax-middle, .parallax-footer {
+
+    /* Set a specific height */
+    min-height: 1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax{
+    /* The image used */
+    background-image: url("cooking-wallpaper.jpg");
+}
+
+.parallax-middle{
+    /* The image used */
+    background-image: url("parallax.jpg");
+}
+
+.parallax-footer {
+    /* The image used */
+    background-image: url("parallax-footer.jpg");
+}
+
+header {
+     padding: 100px;
+     min-height: 80px;
+ }
+
+.info-area {
+    background-color: transparent;
+    color: #fff;
+    text-align: left;
+
+}
+
+.gallery {
+    text-align: left;
+    background-color: lightcyan;
+    color: #fff;
+
+}

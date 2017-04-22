@@ -2,17 +2,6 @@ package my.apps.db;
 import java.sql.*;
 
 
-/**
- * Created by condor on 26/02/15.
- * FastTrackIT, 2015
- * <p/>
- * DEMO ONLY PURPOSES, IT MIGHT CONTAINS INTENTIONALLY ERRORS OR ESPECIALLY BAD PRACTICES
- *
- * make sure you refactor it and remove lots of bad practices like loading the driver multiple times or
- * repeating the same common code multiple times
- *
- * BTW, exercise 1: how we reorg this/refactor in small pieces
- */
 public class DemoCRUDOperations {
 
     // 1. define connection params to db

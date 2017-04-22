@@ -41,10 +41,20 @@ public class KidsRecipes extends HttpServlet {
         PrintWriter out = resp.getWriter();
         addStyle(out);
 
-      try {
+        out.println("<head>");
+        out.println("<title>CookBook</title>");
+        out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">");
+        out.println("</head>");
+
+        out.println("<div id='container'>");
+        out.println("<h2>Cook Book</h2>");
+        out.println("<div id='recipeContent'>");
+
+        try {
+
 
           out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"CSS/style.css\">");
-          out.println("<h3>CookBook</h3>");;
+          out.println("<h3>New recipe</h3>");
           addStyle(out);
 
           out.println("<p>Type: <b>" + type  + "</b><br/></p>");
@@ -59,6 +69,7 @@ public class KidsRecipes extends HttpServlet {
         } catch (SQLException e){
             out.println("<div class='error'><b>Unable to write to database! " +  e.getMessage() +"<b></div>");
         }
+
 
         addGoBack(out);
 

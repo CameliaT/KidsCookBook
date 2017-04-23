@@ -4,7 +4,7 @@ body{
 }
 
 p{
-    margin-left: 200px;
+    margin-left: 300px;
     font-family: "Gloria Hallelujah", cursive;
     font-size: 25px;
     color: darkgreen;
@@ -22,7 +22,7 @@ select{
 
 input{
     margin-bottom: 10px;
-    margin-left: 220px;
+    margin-left: 300px;
     background-color: rgba(0,0,0,0.2);
     font-family: "Gloria Hallelujah", cursive;
     font-size: 25px;
@@ -32,7 +32,7 @@ input{
 
 textarea {
     margin-bottom: 10px;
-    margin-left: 220px;
+    margin-left: 300px;
     background-color: rgba(0,0,0,0.2);
     font-family: "Gloria Hallelujah", cursive;
     font-size: 20px;

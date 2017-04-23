@@ -19,7 +19,6 @@ public class Recipes {
         this.ingredients = ingredients;
         this.instructions = instructions;
         this.duration = duration;
-
     }
 
 

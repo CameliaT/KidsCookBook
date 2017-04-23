@@ -12,7 +12,7 @@ import java.util.List;
 public class RecipeRepository {
 
     // 1. define connection params to db
-    final static String URL = "jdbc:postgresql://54.93.65.5/QA6_Camelia";
+    final static String URL = "jdbc:postgresql://IP.5432/test";
     final static String USERNAME = "fasttrackit_dev";
     final static String PASSWORD = "fasttrackit_dev";
 
@@ -112,6 +112,5 @@ public class RecipeRepository {
         conn.close();
         return recipes;
     }
-
 
 }
